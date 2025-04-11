@@ -1,0 +1,25 @@
+### TEST GET/HOME PAGE WEBSITE
+GET http://localhost:3008/Home
+
+### TEST GET / Dashboard Website
+
+GET http://localhost:3008/dashboard
+
+
+###TEST GET DATA ENDPOINT
+
+GET http://localhost:3008/api/data
+
+
+
+###DATA end point for adding a user
+
+POST http://localhost:3008/api/data
+Content-Type: application/json
+
+{
+    "name": "lomoro"
+}
+
+### TEST DELETE ENDPOINT
+DELETE http://localhost:3008/api/data
